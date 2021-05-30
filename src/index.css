@@ -12,7 +12,7 @@ body {
 }
 
 .parallax {
-  background-image: url(gifs/montage.gif);
+  background-image: url(gifs/about.gif);
   min-height: 300px;
   background-attachment: fixed;
   background-position: center;
