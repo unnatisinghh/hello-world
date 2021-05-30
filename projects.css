@@ -1,8 +1,14 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway);
+/*@import url(http://fonts.googleapis.com/css?family=Raleway);*/
 
 body{
     font-family: Raleway, Calibri, Arial, sans-serif;
 }
+
+@font-face { 
+    font-family: 'Raleway';
+    src: url("Raleway/Raleway-Light.woff") format("woff");
+}
+
 
 .maintitle{
     color: white;
