@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+body{
+    font-family: Raleway, Calibri, Arial, sans-serif;
+}
+
+.maintitle{
+    color: white;
+    padding: 200px;
+    font-size: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav ul {
+    padding-inline-start: 0px;
+}
+
+.col {
+    flex: 0 1 auto;
+    padding: 5px 30px;
+    float:left;
+    width: 44%;
+    /*width: 44%;*/
+}
+
+.project_gallery {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*height: auto;
+    margin: 0px 10px;*/
+    padding: 50px 50px 50px 50px;
+}
+
+.project {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 320px;
+    min-height: 320px;
+}
+
+.project_title {
+    font-size: 15px;
+    color: black;
+}
+.project_icon {
+    padding: 10px 10px 10px 10px;
+    width: 70%;
+    height: auto;
+    transition: transform 400ms ease-out;
+    flex: 0 0 50px;
+}
+
+.project:hover .project_icon{
+    transform: scale(1.15);
+}
+
+
+.links {
+  padding: 75px 0px 0px 0px;
+  width: 100%;
+  border-top: solid #ddd 1px;
+  text-align: center;
+}
+
+img.logo{
+	padding: 0px 5px 15px 0px;
+	transition: .5s ease;
+}
+
+.logo:hover {
+  opacity: 0.3;
+}
+
+
+.text {
+    margin: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.parallax {
+  background-image: url(gifs/about.gif);
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+    clear: both;
+}
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.container {
+    flex: 0 1 auto;
+    align-self: flex-start;
+}
