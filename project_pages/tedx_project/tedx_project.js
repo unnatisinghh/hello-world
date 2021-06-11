@@ -1,4 +1,4 @@
-var index = 1
+var index = 2
 var leftpointingarrow = document.getElementById("left");
 var rightpointingarrow = document.getElementById("right");
 var num_projects = projects.length;

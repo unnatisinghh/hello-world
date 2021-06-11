@@ -1,7 +1,6 @@
-var index = 1
+var index = 0
 var leftpointingarrow = document.getElementById("left");
 var rightpointingarrow = document.getElementById("right");
-var num_projects = projects.length;
 
 if (index-1 == -1) {
     leftpointingarrow.setAttribute("href", "../" + projects[projects.length-1] + "/" + projects[projects.length-1] + ".html")

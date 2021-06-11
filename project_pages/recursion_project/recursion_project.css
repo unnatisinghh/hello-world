@@ -27,8 +27,21 @@ nav ul li a {
     color: black;
 }
 
+.arrow {
+    transition: .5s ease;
+}
+
+.arrow:hover {
+    opacity: 0.3;  
+}
+
 .title {
-    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 150px 50px 150px;
     text-align: center;
     font-size: 35px;
 }
