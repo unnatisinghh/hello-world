@@ -1,0 +1,131 @@
+@font-face { 
+    font-family: 'Raleway';
+    src: url("../Raleway/Raleway-Light.woff") format("woff");
+}
+
+body {
+    font-family: Raleway, Calibri, Arial, sans-serif;
+}
+
+
+.maintitle{
+    color: white;
+    padding: 200px;
+    font-size: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+}
+
+nav ul {
+    padding-inline-start: 0px;
+}
+
+nav ul li a {
+    color: black;
+}
+
+.arrow {
+    transition: .5s ease;
+}
+
+.arrow:hover {
+    opacity: 0.3;  
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    align-items: center;
+    justify-content: center;
+    /*padding: 50px 150px 0px 150px;*/
+    padding: 50px 50px 0px 50px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.date{
+    font-size: 22px; 
+    color: #B5B5B5;
+}
+
+.links {
+  padding: 75px 0px 0px 0px;
+  width: 100%;
+  border-top: solid #ddd 1px;
+  text-align: center;
+}
+
+img.logo{
+	padding: 0px 5px 15px 0px;
+	transition: .5s ease;
+}
+
+.logo:hover {
+  opacity: 0.3;
+}
+
+.parallax {
+    background-image: url(../gifs/about.gif);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-demo {
+    background-image: url(https://vastphotos.com/files/uploads/photos/10691/peaceful-water-landscape-photo-l.jpg);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paragraph {
+    padding: 5px 200px 5px 200px;
+    max-width: 900px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sticker {
+    padding: 0px 0px 0px 200px;
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.sticker img {
+    width: 20%;
+}
+
+.sticker .paragraph {
+    padding: 0px;
+    max-width: 700px;
+}
+
+footer {
+    clear: both;
+}
