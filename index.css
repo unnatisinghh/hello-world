@@ -65,6 +65,11 @@ nav ul li {
 
 nav ul li a {
     color: black;
+    transition: .3s ease;
+}
+
+nav ul li a:hover {
+  opacity: 0.3;
 }
 
 nav ul {

@@ -26,6 +26,11 @@ nav ul {
 
 nav ul li a {
     color: black;
+    transition: .3s ease;
+}
+
+nav ul li a:hover {
+  opacity: 0.3;
 }
 
 .arrow {
@@ -70,7 +75,7 @@ img.logo{
 }
 
 .parallax {
-    background-image: url(../gifs/about.gif);
+    background-image: url(../gifs/train.gif);
     min-height: 300px;
     background-attachment: fixed;
     background-position: center;
@@ -78,14 +83,6 @@ img.logo{
     background-size: cover;
 }
 
-.parallax-demo {
-    background-image: url(https://vastphotos.com/files/uploads/photos/10691/peaceful-water-landscape-photo-l.jpg);
-    min-height: 300px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .paragraph {
     padding: 5px 200px 5px 200px;
@@ -104,6 +101,8 @@ img.logo{
 .column{
     display: flex;
     flex-direction: column;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
