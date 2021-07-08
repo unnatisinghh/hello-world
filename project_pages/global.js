@@ -14,7 +14,7 @@ function set_arrows(index, leftpointingarrow, rightpointingarrow){
     }
 }*/
 
-var projects = ["tenniscourt_project", "foodstickers_project", "tedx_project", "recursion_project", "dejavu_project"]
+var projects = ["tenniscourt_project", "portrait_project", "phonecase_project", "foodstickers_project", "tedx_project", "recursion_project", "dejavu_project"]
 function set_arrows(index, leftpointingarrow, rightpointingarrow) {
     if (index + 1 == projects.length) {
         leftpointingarrow.setAttribute("href", "../" + projects[0] + "/" + projects[0] + ".html");
