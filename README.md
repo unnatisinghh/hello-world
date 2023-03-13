@@ -1,1 +1,1 @@
-my effective personal website 🤧 just head over to https://unnatisinghh.github.io i guess
+my effective personal website 🤧 at https://unnatisinghh.github.io
